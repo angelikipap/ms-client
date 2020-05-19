@@ -1,5 +1,7 @@
 # ms-client
-This a Spring Boot microservice consumes 
+This a Spring Boot microservice client that loads configuration properties for a config server.
+
+You may find the code for the spring cloud config server here: https://github.com/angelikipap/ms-config-server
 
 Instructions on how to execute:
 1. Exeute the sript init.sql in the database of the spring cloud configuration server. The script contains two entries.
