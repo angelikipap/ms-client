@@ -1,0 +1,2 @@
+insert into properties (application,profile,label, key, value) values ('configclient', 'default', 'master','hellomessage', 'Hello');
+insert into properties (application,profile,label, key, value) values ('configclient', 'fr', 'master','hellomessage', 'Salut!');
