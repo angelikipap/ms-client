@@ -8,7 +8,7 @@ Instructions on how to execute:
 2. Upate the bootstrap.properties file with the correct endpoint of the configuratio server (spring.cloud.config.uri)
 3. Build with mvn package
 4. Execute with java -jar ms-client-0.0.1-SNAPSHOT.jar (under target directory)
-5. Exeute a GET request to http://localhost:8882/api/hello in order to see the result. You should see Hello! 
+5. Execute a GET request to http://localhost:8882/api/hello in order to see the result. You should see Hello! 
 6. Uncomment spring.profiles.active=fr on bootstrap.properties file in order to execute the client with profile fr. Build and run the application and exeute the GET request. You should see Salut!
 
 Notes:
